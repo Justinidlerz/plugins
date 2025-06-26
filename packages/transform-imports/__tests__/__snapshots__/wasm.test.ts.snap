@@ -63,13 +63,12 @@ export { default as Footer } from "my-library/components/App/Footer";
 `;
 
 exports[`Should load transform-imports wasm plugin correctly > Should transform rewrite-namespace correctly 1`] = `
-"import * as test from 'rewrite-module-namespace';
+"import test from "rewrite-module-namespace/swc-proxy";
 "
 `;
 
 exports[`Should load transform-imports wasm plugin correctly > Should transform rewrite-namespace-export correctly 1`] = `
-"import * as _someModule from "rewrite-module-namespace";
-export { _someModule as someModule };
+"export { default as someModule } from "rewrite-module-namespace/swc-proxy";
 "
 `;
 
