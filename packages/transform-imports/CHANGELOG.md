@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- bafdb6a: Add rewrite_namespace_to_proxy for rewrite namespace as swc-proxy
+
+## 8.0.4
+
+### Patch Changes
+
 - 0f44eb1: Add rewrite_namespace_to_proxy for rewrite namespace as swc-proxy
 
 ## 8.0.3
