@@ -1,6 +1,6 @@
 {
   "name": "swc-plugin-transform-imports-1",
-  "version": "8.0.3",
+  "version": "8.0.4",
   "description": "original imports transform plugin within rewrite_namespace_to_proxy option",
   "main": "swc_plugin_transform_imports.wasm",
   "scripts": {
