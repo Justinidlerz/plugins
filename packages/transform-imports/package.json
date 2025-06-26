@@ -1,5 +1,5 @@
 {
-  "name": "@swc/plugin-transform-imports",
+  "name": "swc-plugin-transform-imports",
   "version": "8.0.3",
   "description": "SWC plugin for https://www.npmjs.com/package/babel-plugin-transform-imports",
   "main": "swc_plugin_transform_imports.wasm",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/swc-project/plugins/issues"
   },
-  "author": "강동윤 <kdy1997.dev@gmail.com>",
+  "author": "",
   "keywords": [],
   "license": "Apache-2.0",
   "preferUnplugged": true,
