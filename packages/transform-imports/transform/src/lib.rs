@@ -314,8 +314,7 @@ impl Rewriter<'_> {
                     });
                 }
                 ImportSpecifier::Default(def_spec) if self.config.handle_default_import => {
-                    let name_str = def_spec.local.as_ref();
-                    let new_path = self.new_path(Some(name_str));
+                    let new_path = self.new_path(Some("default".into()));
                     let specifier = ImportSpecifier::Default(def_spec.clone());
                     out.push(ImportDecl {
                         specifiers: vec![specifier],

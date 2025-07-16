@@ -2,6 +2,7 @@
 
 exports[`Should load transform-imports wasm plugin correctly > Should transform default correctly 1`] = `
 "import defaultExport from "my-default";
+import defaultExport2 from "always-default/default";
 "
 `;
 

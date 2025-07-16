@@ -47,7 +47,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: true,
                     handle_default_import: true,
                     handle_namespace_import: true,
-                    rewrite_namespace_to_proxy: false
+                    rewrite_namespace_to_proxy: false,
                 },
             ),
             (
@@ -58,7 +58,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: true,
                     handle_default_import: true,
                     handle_namespace_import: true,
-                    rewrite_namespace_to_proxy: false
+                    rewrite_namespace_to_proxy: false,
                 },
             ),
             (
@@ -69,7 +69,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: true,
                     handle_default_import: true,
                     handle_namespace_import: true,
-                    rewrite_namespace_to_proxy: true
+                    rewrite_namespace_to_proxy: true,
                 },
             ),
             (
@@ -97,7 +97,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: true,
                     handle_default_import: true,
                     handle_namespace_import: true,
-                    rewrite_namespace_to_proxy: false
+                    rewrite_namespace_to_proxy: false,
                 },
             ),
             (
@@ -108,7 +108,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: true,
                     handle_default_import: true,
                     handle_namespace_import: true,
-                    rewrite_namespace_to_proxy: false
+                    rewrite_namespace_to_proxy: false,
                 },
             ),
             (
@@ -119,7 +119,7 @@ fn modularize_imports_fixture(input: PathBuf) {
                     skip_default_conversion: false,
                     handle_default_import: false,
                     handle_namespace_import: false,
-                    rewrite_namespace_to_proxy: false
+                    rewrite_namespace_to_proxy: false,
                 },
             ),
         ]
