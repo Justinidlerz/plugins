@@ -29,6 +29,17 @@ fn modularize_imports_fixture(input: PathBuf) {
                 },
             ),
             (
+                "always-default".to_string(),
+                PackageConfig {
+                    transform: "always-default/{{member}}".into(),
+                    prevent_full_import: false,
+                    skip_default_conversion: false,
+                    handle_default_import: true,
+                    handle_namespace_import: true,
+                    rewrite_namespace_to_proxy: false,
+                },
+            ),
+            (
                 "my-library/?(((\\w*)?/?)*)".to_string(),
                 PackageConfig {
                     transform: "my-library/{{ matches.[1] }}/{{member}}".into(),
