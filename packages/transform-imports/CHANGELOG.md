@@ -1,5 +1,11 @@
 # @swc/plugin-transform-imports
 
+## 8.0.5
+
+### Patch Changes
+
+- ace273d: Always given default as name when handling default export
+
 ## 8.0.4
 
 ### Patch Changes
